@@ -1,3 +1,8 @@
+from termcolor import colored 
+
+print(colored("Это будет выводиться красным", 'red'))
+
+
 print('\n'*120)
 print ('hello!')
 print ('2')
