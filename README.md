@@ -2,8 +2,20 @@
 Test my skill on Python + Visual Studio Code + Virtual Enviroument
 
 
-/prog - my programm file
-/.venv - enviroument
+stucture dir project:
+
+    /prog - my programm file
+        main.py  - start
+        bFunc.py - lib
+    /.venv - environment
 
 
-testing changes
+
+1. install python from official site
+2. install Visual Studio Code
+2.1. - python
+2.2. - russian
+2.3. - git
+3. comman shell Admin "Set-ExecutionPolicy Unrestricted"
+4. python -m venv .venv
+5. enjoy!
