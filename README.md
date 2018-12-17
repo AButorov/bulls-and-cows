@@ -18,4 +18,11 @@ stucture dir project:
 2.3. - git
 3. comman shell Admin "Set-ExecutionPolicy Unrestricted"
 4. python -m venv .venv
-5. enjoy!
+5. python -m pip install --upgrade pip
+6. pip freeze > requirements.txt
+7. replace '==' on '>=' in requirements.txt
+8. pip3 install -r requirements.txt --upgrade
+
+
+
+enjoy!
