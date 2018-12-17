@@ -22,7 +22,7 @@ class bBullsCows:
             i += 1
 
     def getUserCode(self):
-        sTmp = input('input '+str(self.iDigit)+' digit:')
+        sTmp = input('input '+str(self.iDigit)+' digit: ')
         self.sInput.clear()
         i = 0
         while i < self.iDigit:
@@ -52,8 +52,7 @@ class bBullsCows:
         self.getUserCode()
         itry = 1
         while self.compareCodes() == False:
-            print ('№',itry, 'Bulls:', self.iBulls, 'Cows', self.iCows)
-            print(' code: ',self.sCode,'user:',self.sInput)
+            print ('№',itry, 'Bulls:', self.iBulls, 'Cows', self.iCows, ' code: ',self.sCode,'user:',self.sInput)
             itry += 1
             self.getUserCode()
         else:
