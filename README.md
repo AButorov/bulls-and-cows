@@ -16,6 +16,12 @@ stucture dir project:
 2.1. - python
 2.2. - russian
 2.3. - git
+2.4. 
+git remote add origin https://github.com/AButorov/bulls-and-cows.git
+git push -u origin master
+
+
+
 3. comman shell Admin "Set-ExecutionPolicy Unrestricted"
 4. python -m venv .venv
 5. python -m pip install --upgrade pip
